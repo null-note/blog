@@ -4,7 +4,7 @@ description: Some notes
 lang: fa
 timezone: Asia/Tehran
 image: assets/img/ogp.png
-repo: https://github.com/null-notes/blog
+repo: https://github.com/null-note/blog
 mode: dark
 
 author:
@@ -13,7 +13,7 @@ author:
   email: optuna@tutanota.com
   avatar: /assets/img/avatar.jpg
 
-url: "https://example.anything"
+url: "https://null-notes.pages.dev"
 baseurl:
 permalink: /:title/
 google_analytics:
