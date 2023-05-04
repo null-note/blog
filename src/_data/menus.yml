@@ -1,0 +1,11 @@
+- title: خانه
+  url: /
+  external: false
+
+- title: بایگانی
+  url: /archive/
+  external: false
+
+- title: برچسب‌ها
+  url: /tags/
+  external: false

@@ -1,0 +1,66 @@
+source: src
+title: Null Notes
+description: Some notes
+lang: fa
+timezone: Asia/Tehran
+image: assets/img/ogp.png
+repo: https://github.com/null-notes/blog
+mode: dark
+
+author:
+  name: Null
+  bio: Null Notes
+  email: optuna@tutanota.com
+  avatar: /assets/img/avatar.jpg
+
+url: "https://example.anything"
+baseurl:
+permalink: /:title/
+google_analytics:
+
+collections:
+  posts:
+    output: true
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+number_of_posts: 5
+
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
+  - jekyll-jalali
